@@ -1,6 +1,5 @@
 <? 
 	session_start();
-	session_destroy();
 	include('functions.php'); 
 
 ?>
@@ -40,17 +39,11 @@
 		</h2> -->
 		<div id="clear"></div>
 		<div id="leftContent">
-			<div id="login">
-				<form action="validate.php" method="POST">
-					<input type="text" name="username" placeholder="Username">
-					<br>
-					<!-- $_POST['Username']; -->
-					<input type="password" name = "password" placeholder="Password">
-					<br>
-					<input type="submit" value="Submit">
-				</form>
-			</div>
-
+			<p>
+				Hello, <?php
+				echo $_SESSION['user_logged_in'];
+				?> 
+			</p>
 			<div id="searchBar">
 				Search Bar will go here
 			</div>

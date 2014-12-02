@@ -36,6 +36,11 @@ h2{
 	text-align: center;
 	width:545px;
 }
+p1{
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+}
 #navBar{
 	position: relative;
 	left:50%;
@@ -102,7 +107,24 @@ h2{
 	
 	border: 1px solid #CCCCCC;
 	margin-left: 15px;
-
+}
+/*
+#rightContent{
+	float:left;
+	max-width:175px;
+	border: 1px solid #CCCCCC;
+}
+*/
+td{
+	text-align: center;
+	padding:3px;
+}
+th{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+th, td{
+	border:1px solid black;
 }
 #searchBar{
 	position:relative;
@@ -115,13 +137,11 @@ h2{
 	padding-bottom: 3px;
 }
 
-/*
-#rightContent{
-	float:right;
-	max-width:175px;
-	border: 1px solid #CCCCCC;
-}
-*/
+
+
+
+
+
 #clear{
 	clear:both;
 }
