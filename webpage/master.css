@@ -5,7 +5,8 @@ body{
 }
 #container{
 	margin:auto;
-	width:950px;
+	min-width: 1050px;
+	width: 90%;
 	background-color: #EEEEEE;
 	border: 1px solid #CCCCCC;
 	border-radius: 5px;
@@ -34,6 +35,11 @@ h2{
 	margin: 0px;
 	text-align: center;
 	width:545px;
+}
+p1{
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
 }
 #navBar{
 	position: relative;
@@ -70,51 +76,72 @@ h2{
 }
 #content{
 	position: relative;
-	background-color: #FBFBFB;
-	min-width: 1px;
+
+	min-width: 1024px;
 	min-height: 200px;
+
 	padding: 5px;
 	margin-left:5px;
 	margin-right:5px;
 	margin-bottom:5px;
 	border:1px solid black;
 	border-radius: 5px;
-}
-#searchBar{
-	position:relative;
-	float:right;
-	width:175px;
-	margin-bottom: 15px;
-}
-#login{
-	position: relative;
-	float:left;
-	width:175px;
+	background-color: #FBFBFB;
 }
 #leftContent{
 	position:relative;
-	float:left;
-	max-width: 175px;
+	float: left;
+
+	width: 15%;
 	min-height: 300px;
+
 	padding: 2px;
 	border: 1px solid #CCCCCC;
 	background-color: #EEEEEE;
 }
 #centerContent{
-	float:left;
-	max-width: 545px;
-	border: 1px solid #CCCCCC;
-	margin: 10px;
-	margin-top: 0px;
+	position: relative;
+	float: left;
 
+	width:82%;
+	
+	border: 1px solid #CCCCCC;
+	margin-left: 15px;
 }
+/*
 #rightContent{
-	float:right;
+	float:left;
 	max-width:175px;
 	border: 1px solid #CCCCCC;
-
-
 }
+*/
+td{
+	text-align: center;
+	padding:3px;
+}
+th{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+th, td{
+	border:1px solid black;
+}
+#searchBar{
+	position:relative;
+	float:right;
+	margin-bottom: 5px;
+}
+#login{
+	position: relative;
+	width:175px;
+	padding-bottom: 3px;
+}
+
+
+
+
+
+
 #clear{
 	clear:both;
 }
