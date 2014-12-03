@@ -29,7 +29,7 @@ foreach($stockList as $line)
     
     $hist = array();
     
-    $format = "sl1d1t1";
+    
     usleep(100000);
 	
 	$url = "http://ichart.yahoo.com/table.csv?s=$stock&a=9&b=20&c=2013&d=9&e=20&f=2014&g=d&ignore=.csv";
@@ -41,6 +41,7 @@ foreach($stockList as $line)
 	while (($line = fgetcsv($fp)) !== FALSE) {
 		//$line is an array of the csv elements
 		foreach($line as $cell){
+			sleep(1);
 			print_r($cell);
 		}
 	}
